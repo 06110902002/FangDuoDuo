@@ -188,7 +188,7 @@ class HomeVC: BaseVC {
     
     func buildListView() {
         
-        listView = HomeTableView.init(frame:CGRect(x : 0, y : 20,width: self.view.frame.width, height: self.view.frame.height))
+        listView = HomeTableView.init(frame:CGRect(x : 0, y : 20,width: self.view.frame.width, height: self.view.frame.height - 80))
         listView!.separatorInset = UIEdgeInsetsMake(0, 10, 0, 10)
         listView!.tableFooterView = UIView(frame:CGRect.zero)
         listView!.addObserver(self, forKeyPath: "contentOffset", options: [.new,.old], context: nil)

@@ -26,6 +26,7 @@
 		381ACB2A1F98C1F800FCBA41 /* ic_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 381ACB291F98C1F800FCBA41 /* ic_next.png */; };
 		381ACB2C1F98C4B800FCBA41 /* HomeHouseGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ACB2B1F98C4B800FCBA41 /* HomeHouseGroupModel.swift */; };
 		381ACB2E1F98C95B00FCBA41 /* HomeHouseGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ACB2D1F98C95B00FCBA41 /* HomeHouseGroupCell.swift */; };
+		381EC2331FA9CDBE002B98F6 /* HeadLineTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381EC2321FA9CDBE002B98F6 /* HeadLineTableView.swift */; };
 		382E15E91F99798100B5C1F1 /* HouseGroupItemViewPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382E15E81F99798100B5C1F1 /* HouseGroupItemViewPool.swift */; };
 		382F423B1FA0348E00718B24 /* RecycScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382F423A1FA0348E00718B24 /* RecycScrollView.swift */; };
 		382F423D1FA0400F00718B24 /* AdvertisementViewPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382F423C1FA0400F00718B24 /* AdvertisementViewPool.swift */; };
@@ -67,6 +68,12 @@
 		385CD49E1F95E94F00487184 /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CD49D1F95E94F00487184 /* MineVC.swift */; };
 		385CD4A11F95EF5400487184 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CD4A01F95EF5400487184 /* UIImage.swift */; };
 		385CD4A51F9607E100487184 /* headbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 385CD4A41F9607E100487184 /* headbg.jpg */; };
+		3888F7BE1FA6BF6600644BD2 /* BuildingTitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888F7BD1FA6BF6600644BD2 /* BuildingTitleModel.swift */; };
+		3888F7C01FA6C09300644BD2 /* BuildingTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888F7BF1FA6C09300644BD2 /* BuildingTitleCell.swift */; };
+		3888F7C21FA6C59E00644BD2 /* BuildInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888F7C11FA6C59E00644BD2 /* BuildInfoCell.swift */; };
+		3888F7C41FA6C5C900644BD2 /* BuildInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3888F7C31FA6C5C900644BD2 /* BuildInfoModel.swift */; };
+		3888F7C61FA6CB9700644BD2 /* ic_nav_return_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3888F7C51FA6CB9700644BD2 /* ic_nav_return_normal.png */; };
+		3888F7C81FA6D25800644BD2 /* xf_ic_share_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 3888F7C71FA6D25800644BD2 /* xf_ic_share_gray.png */; };
 		9C9BAE59D0039595840187EB /* Pods_MoreHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3722B643252E0262E181FB21 /* Pods_MoreHouse.framework */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +115,7 @@
 		381ACB291F98C1F800FCBA41 /* ic_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_next.png; sourceTree = "<group>"; };
 		381ACB2B1F98C4B800FCBA41 /* HomeHouseGroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeHouseGroupModel.swift; path = viewcontroller/home/model/HomeHouseGroupModel.swift; sourceTree = "<group>"; };
 		381ACB2D1F98C95B00FCBA41 /* HomeHouseGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeHouseGroupCell.swift; path = viewcontroller/home/cell/HomeHouseGroupCell.swift; sourceTree = "<group>"; };
+		381EC2321FA9CDBE002B98F6 /* HeadLineTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeadLineTableView.swift; path = viewcontroller/headline/view/HeadLineTableView.swift; sourceTree = "<group>"; };
 		382E15E81F99798100B5C1F1 /* HouseGroupItemViewPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HouseGroupItemViewPool.swift; path = viewcontroller/home/view/HouseGroupItemViewPool.swift; sourceTree = "<group>"; };
 		382F423A1FA0348E00718B24 /* RecycScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecycScrollView.swift; path = viewcontroller/home/view/RecycScrollView.swift; sourceTree = "<group>"; };
 		382F423C1FA0400F00718B24 /* AdvertisementViewPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdvertisementViewPool.swift; path = viewcontroller/home/view/AdvertisementViewPool.swift; sourceTree = "<group>"; };
@@ -155,6 +163,12 @@
 		385CD49D1F95E94F00487184 /* MineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MineVC.swift; path = viewcontroller/mine/MineVC.swift; sourceTree = "<group>"; };
 		385CD4A01F95EF5400487184 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = viewcontroller/UIImage.swift; sourceTree = "<group>"; };
 		385CD4A41F9607E100487184 /* headbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headbg.jpg; sourceTree = "<group>"; };
+		3888F7BD1FA6BF6600644BD2 /* BuildingTitleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildingTitleModel.swift; path = viewcontroller/home/model/BuildingTitleModel.swift; sourceTree = "<group>"; };
+		3888F7BF1FA6C09300644BD2 /* BuildingTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildingTitleCell.swift; path = viewcontroller/home/cell/BuildingTitleCell.swift; sourceTree = "<group>"; };
+		3888F7C11FA6C59E00644BD2 /* BuildInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildInfoCell.swift; path = viewcontroller/home/cell/BuildInfoCell.swift; sourceTree = "<group>"; };
+		3888F7C31FA6C5C900644BD2 /* BuildInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildInfoModel.swift; path = viewcontroller/home/model/BuildInfoModel.swift; sourceTree = "<group>"; };
+		3888F7C51FA6CB9700644BD2 /* ic_nav_return_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_return_normal.png; sourceTree = "<group>"; };
+		3888F7C71FA6D25800644BD2 /* xf_ic_share_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xf_ic_share_gray.png; sourceTree = "<group>"; };
 		C82FB0B22C8F07F1634032F0 /* Pods-MoreHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoreHouse/Pods-MoreHouse.release.xcconfig"; sourceTree = "<group>"; };
 		E33917AE07957B590934219D /* Pods-MoreHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreHouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoreHouse/Pods-MoreHouse.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -239,6 +253,8 @@
 				381ACB211F9850DB00FCBA41 /* HouseHeadLineModel.swift */,
 				381ACB2B1F98C4B800FCBA41 /* HomeHouseGroupModel.swift */,
 				382F42401FA05E7C00718B24 /* AdvertisementModel.swift */,
+				3888F7BD1FA6BF6600644BD2 /* BuildingTitleModel.swift */,
+				3888F7C31FA6C5C900644BD2 /* BuildInfoModel.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -251,6 +267,8 @@
 				381ACB231F98515B00FCBA41 /* HouseHeadLineCell.swift */,
 				381ACB2D1F98C95B00FCBA41 /* HomeHouseGroupCell.swift */,
 				382F423E1FA05E3300718B24 /* AdvertisementCell.swift */,
+				3888F7BF1FA6C09300644BD2 /* BuildingTitleCell.swift */,
+				3888F7C11FA6C59E00644BD2 /* BuildInfoCell.swift */,
 			);
 			name = cell;
 			sourceTree = "<group>";
@@ -271,6 +289,14 @@
 				381ACB251F98713800FCBA41 /* ViewPool.swift */,
 			);
 			name = obj_model;
+			sourceTree = "<group>";
+		};
+		381EC2311FA9CD86002B98F6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				381EC2321FA9CDBE002B98F6 /* HeadLineTableView.swift */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		385CD42E1F95D87200487184 = {
@@ -334,6 +360,8 @@
 		385CD4681F95D87D00487184 /* res */ = {
 			isa = PBXGroup;
 			children = (
+				3888F7C71FA6D25800644BD2 /* xf_ic_share_gray.png */,
+				3888F7C51FA6CB9700644BD2 /* ic_nav_return_normal.png */,
 				382F42421FA0647200718B24 /* adv1.jpg */,
 				382F42431FA0647200718B24 /* adv2.jpg */,
 				382F42441FA0647200718B24 /* adv3.jpg */,
@@ -389,6 +417,7 @@
 		385CD4931F95E8A900487184 /* headline */ = {
 			isa = PBXGroup;
 			children = (
+				381EC2311FA9CD86002B98F6 /* view */,
 				385CD4941F95E8C200487184 /* HeadLineVC.swift */,
 			);
 			name = headline;
@@ -558,11 +587,13 @@
 				382F42461FA0647200718B24 /* adv2.jpg in Resources */,
 				385CD4A51F9607E100487184 /* headbg.jpg in Resources */,
 				385CD4761F95E45300487184 /* ic_menu_03.png in Resources */,
+				3888F7C81FA6D25800644BD2 /* xf_ic_share_gray.png in Resources */,
 				385CD47C1F95E5CE00487184 /* ic_head_line_pressed.png in Resources */,
 				38195BD31F96D67B001E55D6 /* ic_search_gray3.png in Resources */,
 				385CD46C1F95DE3000487184 /* ic_tab_focus_unselected.png in Resources */,
 				385CD47B1F95E5CE00487184 /* ic_head_line_normal.png in Resources */,
 				385CD4451F95D87200487184 /* LaunchScreen.storyboard in Resources */,
+				3888F7C61FA6CB9700644BD2 /* ic_nav_return_normal.png in Resources */,
 				385CD4851F95E69000487184 /* ic_message_list_normal.png in Resources */,
 				385CD4751F95E45300487184 /* ic_menu_02.png in Resources */,
 				385CD4771F95E45300487184 /* ic_menu_04.png in Resources */,
@@ -659,6 +690,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				382E15E91F99798100B5C1F1 /* HouseGroupItemViewPool.swift in Sources */,
+				3888F7C21FA6C59E00644BD2 /* BuildInfoCell.swift in Sources */,
 				382F423B1FA0348E00718B24 /* RecycScrollView.swift in Sources */,
 				385CD49B1F95E92700487184 /* FocusVC.swift in Sources */,
 				385CD4901F95E7EA00487184 /* HomeVC.swift in Sources */,
@@ -670,7 +702,11 @@
 				38195BDF1F96E081001E55D6 /* BaseTabViewCell.swift in Sources */,
 				38195BEA1F96E8AA001E55D6 /* NavMenuCell.swift in Sources */,
 				381ACB201F984FB600FCBA41 /* BaseObjPool.swift in Sources */,
+				3888F7BE1FA6BF6600644BD2 /* BuildingTitleModel.swift in Sources */,
 				38195BE21F96E151001E55D6 /* HomeTableView.swift in Sources */,
+				381EC2331FA9CDBE002B98F6 /* HeadLineTableView.swift in Sources */,
+				3888F7C01FA6C09300644BD2 /* BuildingTitleCell.swift in Sources */,
+				3888F7C41FA6C5C900644BD2 /* BuildInfoModel.swift in Sources */,
 				38195BE81F96E2F3001E55D6 /* PlaceHolderCell.swift in Sources */,
 				381ACB2C1F98C4B800FCBA41 /* HomeHouseGroupModel.swift in Sources */,
 				381ACB2E1F98C95B00FCBA41 /* HomeHouseGroupCell.swift in Sources */,

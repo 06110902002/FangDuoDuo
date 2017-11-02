@@ -20,6 +20,10 @@ enum CellItemType {
     case houseGroupType
     
     case advertisementType
+    
+    case buildingTitleType
+    
+    case buildInfoType
 }
 
 

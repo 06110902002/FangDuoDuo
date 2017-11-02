@@ -67,6 +67,10 @@ class HomeTableView: BaseTableView {
         self.dataList?.append(advData)
        
         
+        //添加橡盘标题
+        let buildData : BuildingTitleModel = BuildingTitleModel.init()
+        buildData.title = "热闹楼盘"
+        self.dataList?.append(buildData)
         
         
     }
@@ -106,6 +110,12 @@ class HomeTableView: BaseTableView {
         case .advertisementType:
             
             cell = AdvertisementCell(style:UITableViewCellStyle.default, reuseIdentifier : "AdvertisementCell")
+            
+            break;
+            
+        case .buildingTitleType:
+            
+            cell = BuildingTitleCell(style:UITableViewCellStyle.default, reuseIdentifier : "BuildingTitleCell")
             
             break;
             
@@ -152,6 +162,10 @@ class HomeTableView: BaseTableView {
             
         case .advertisementType:
             height = 130
+            break;
+            
+        case .buildingTitleType:
+            height = 50
             break;
             
             
